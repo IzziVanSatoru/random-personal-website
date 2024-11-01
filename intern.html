@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            color: #F4F4F4;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 50px 0;
+        }
+
+        .biography {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .biography img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .social-media {
+            margin-bottom: 50px;
+        }
+
+        .social-media a {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 2em;
+            color: #F4F4F4;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .services h1 {
+            text-align: center;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .service {
+            text-align: center;
+        }
+
+        .service img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .service h3 {
+            margin-bottom: 10px;
+        }
+
+        .service p {
+            margin-bottom: 0;
+        }
+
+        .call-to-action {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 50px;
+        }
+
+        .call-to-action button {
+            background-color: #F4F4F4;
+            color: black;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+
+        .call-to-action p {
+            margin-top: 20px;
+        }
+
+        .information-security {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .information-security img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        .information-security .details {
+            text-align: center;
+        }
+
+        .information-security .details h2 {
+            margin-bottom: 10px;
+        }
+
+        .information-security .details p {
+            margin-bottom: 20px;
+        }
+
+        .information-security .details .location {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .information-security .details .location p {
+            margin: 0 10px;
+        }
+
+        .information-security .details .location a {
+            text-decoration: none;
+            color: #F4F4F4;
+        }
+
+        .information-security .details .location a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="biography">
+           <img src="LuciferoJau.jpg" alt="Jauza Dari Alhasra" style="filter: blur(8px);">
+            <h1>JauzaGanteng</h1>
+            <p>フルスタックデベロッパーで、デジタルアーティストとしても活動しています。フロントエンドからバックエンドまで、ウェブ開発全般に精通しており、コードとクリエイティブなデザインを融合させたプロジェクトを得意としています。また、デジタルアートを通じて、独自のビジュアル表現を追求し、多彩なスキルを活かして作品を制作しています。
+</p>
+        </div>
+
+        <div class="social-media">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <h2>We collaborate with brands and agencies to craft memorable experiences by integrating cutting-edge digital art and full-stack development, seamlessly merging creativity with technology.</h2>
+        
+        
+        <p>We continuously evolve our technology and design approaches to create seamless and captivating experiences for our clients. A key part of this evolution has been integrating modern tools, such as real-time data tracking and GPS technology, to ensure transparency and optimize performance. This enables us to provide clients with the precise solutions they expect, enhancing efficiency and solving common industry challenges, while offering visually stunning and user-friendly digital experiences.</p>
+        <button>Chat Now</button>
+ 
+        <div class="services">
+            <h1>1</h1>
+            <h2>We design People Inspired Experiences that create positive change in people's lives.</h2>
+            <!--style-->
+            <h2 style="animation: colorChange 5s infinite;">View my project and Her</h2>
+<style>
+  @keyframes colorChange {
+    0% { color: rgb(255, 0, 0); }   
+    33% { color: rgb(0, 255, 0); }  
+    66% { color: rgb(0, 0, 255); }  
+    100% { color: rgb(255, 0, 0); } 
+  }
+</style>
+
+           <div class="services-grid flex flex-wrap justify-center">
+  <div class="service w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+    <div class="bg-white rounded shadow-md p-4">
+      <img src="art1.jpg" alt="Service 1" class="w-full mb-4">
+      <h2 style="color: blue;" class="text-lg font-bold mb-2">アーティスト</h2>
+      <p class="text-gray-600">Farizi Ata jauza.</p>
+    </div>
+  </div>
+  <div class="service w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+    <div class="bg-white rounded shadow-md p-4">
+      <img src="eyestyle.jpg" alt="Service 2" class="w-full mb-4">
+      <h2 style="color: blue;" class="text-lg font-bold mb-2">アーティスト</h2>
+      <p class="text-gray-600">Farizi ata jauza.</p>
+    </div>
+  </div>
+  <div class="service w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+    <div class="bg-white rounded shadow-md p-4">
+      <img src="sketchBody.jpg" alt="Service 3" class="w-full mb-4">
+      <h2 style="color: blue;" class="text-lg font-bold mb-2">アーティスト</h2>
+      <p class="text-gray-600">N..</p>
+    </div>
+  </div>
+  <div class="service w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+    <div class="bg-white rounded shadow-md p-4">
+      <img src="abstract.jpg" alt="Service 4" class="w-full mb-4">
+      <h2 style="color: blue;" class="text-lg font-bold mb-2">アーティスト</h2>
+      <p class="text-gray-600">farizi Ata jauza</p>
+    </div>
+  </div>
+</div>
+          
+        <p>I hope can beeing artist.</p>
+        <div class="information-security">
+            <div class="details">
+                <img src="JauMoonApex.jpg" style="filter: blur(8px);">
+                <h2>Farizi ata jauza</h2>
+                <p>0000</p>
+                <div class="location">
+                    <p><i class="fas fa-map-marker-alt"></i></p>
+                    <p><a href="#">unknow</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
